@@ -6,7 +6,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "GitHub.copySelectionAsHtml"
+        "GitHub.copilot"
       ]
     },
     "codespaces": {
@@ -14,5 +14,6 @@
         "codespace.md"
       ]
     }
-  }
+  },
+  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
 }
